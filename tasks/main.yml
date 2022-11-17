@@ -6,9 +6,9 @@
   when: >
     (ansible_facts['distribution_major_version'] == "10"
     and ansible_facts['distribution'] is match("Microsoft Windows Server 2019.*"))
-    or
-    (ansible_facts['distribution_major_version'] == "10"
-    and ansible_facts['distribution'] is match("Microsoft Windows Server 2016.*"))
-    or
-    (ansible_facts['distribution_major_version'] == "6"
-    and ansible_facts['distribution'] is match("Microsoft Windows Server 2012.*"))
+#    or
+#   (ansible_facts['distribution_major_version'] == "10"
+#   and ansible_facts['distribution'] is match("Microsoft Windows Server 2016.*"))
+#   or
+#   (ansible_facts['distribution_major_version'] == "6"
+#   and ansible_facts['distribution'] is match("Microsoft Windows Server 2012.*"))
